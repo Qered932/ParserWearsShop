@@ -70,7 +70,7 @@ def get_url(url):
         if step_to_out == 0:
             print('Программа завершена!')
         else:
-            print(f'Осталось загрузить файлов: #{step_to_out}')
+            print(f'Теперь осталось загрузить файлов: #{step_to_out}')
 
         time.sleep(random.randrange(2,4))
 
